@@ -5,3 +5,4 @@ asda
 121
 asd
 qwe
+cmd:ifconfig
