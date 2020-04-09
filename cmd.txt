@@ -5,4 +5,4 @@ asda
 121
 asd
 qwe
-cmd:ifconfig
+duye_cmd:ifconfig
