@@ -7,4 +7,4 @@ asd
 qwe
 duye_cmd:{ifconfig}
 session:{jlIFqVDcuLBUedOIabZYb4zMPoIWwkj0E8bPMOzHkrmRjWD6}
-token:{V1hjNlJg6DohGkaIhuxKH3Elwgz3j1sdwCcTRaSnw%2fVE7vCv3BzOTvcM9bwBVGRJXZbecitKBzhm%2bZ4oFS7TSg%3d%3d}
+token:{V1hjNlJg6DohGkaIhuxKH3Elwgz3j1sdwCcTRaSnw/VE7vCv3BzOTvcM9bwBVGRJXZbecitKBzhm+Z4oFS7TSg==}
