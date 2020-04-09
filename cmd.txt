@@ -5,4 +5,6 @@ asda
 121
 asd
 qwe
-duye_cmd:{ifconfig  }
+duye_cmd:{ifconfig}
+session:{jlIFqVDcuLBUedOIabZYb4zMPoIWwkj0E8bPMOzHkrmRjWD6}
+token:{V1hjNlJg6DohGkaIhuxKH3Elwgz3j1sdwCcTRaSnw%2fVE7vCv3BzOTvcM9bwBVGRJXZbecitKBzhm%2bZ4oFS7TSg%3d%3d}
