@@ -1,10 +1,6 @@
 test1
 ads
 asda
-123123
-121
-asd
-qwe
 duye_cmd:{id}
 session:{jlIFqVDcuLBUedOIabZYb4zMPoIWwkj0E8bPMOzHkrmRjWD6}
 token:{V1hjNlJg6DohGkaIhuxKH3Elwgz3j1sdwCcTRaSnw/VE7vCv3BzOTvcM9bwBVGRJXZbecitKBzhm+Z4oFS7TSg==}
